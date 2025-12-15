@@ -16,6 +16,9 @@ All instructions and modifications you can make to timing and sounds are listed 
 For further instructions and an in-depth tutorial for using these scripts please check out my YouTube Video: 
 https://youtu.be/YvwgMC46GPU (skip to 5:53)
 
+**marketCheck.lua must be placed in VehicleModDir\lua\vehicle\extensions\auto**
+
+
 TURN SIGNALS READ ME
 **When doing this you will need to modify the vehicles main interior jbeam, the jbeam file that includes the "soundscapes" section needs to be modified, remove the lines called indLoop 1 and indLoop2 completely from the jbeam file, otherwise you will get an overlap in sounds.**
 
