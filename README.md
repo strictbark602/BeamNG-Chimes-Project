@@ -15,3 +15,12 @@ All instructions and modifications you can make to timing and sounds are listed 
 
 For further instructions and an in-depth tutorial for using these scripts please check out my YouTube Video: 
 https://youtu.be/YvwgMC46GPU (skip to 5:53)
+
+TURN SIGNALS READ ME
+**When doing this you will need to modify the vehicles main interior jbeam, the jbeam file that includes the "soundscapes" section needs to be modified, remove the lines called indLoop 1 and indLoop2 completely from the jbeam file, otherwise you will get an overlap in sounds.**
+
+-There is an included Samples Folder if you wish to use a sound from it place it inside of your vehicles sound path in the "art" folder (rename the file to something relate to your vehicle ex. ChargerSRT_on and ChargerSRT_off)
+-Similar to the door chimes each sound effect should only be a second or less long
+-You will need to sound effect files, 1 for the on (plays when the light blinks on) and 1 for the off (plays when the light blinks off)
+-You should name them properly for on and off so the sounds don't get mix matched when put in game
+-LUA file has comments explaining each function and how to modify it
