@@ -1,3 +1,4 @@
+--Made by Strict
 local M = {}
 local volume, pitch = 4, 1
 local camNode = 0
@@ -50,4 +51,5 @@ end
 
 M.onInit = init
 M.updateGFX = update
+
 return M
